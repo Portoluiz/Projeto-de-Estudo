@@ -3,3 +3,32 @@
     margin: 0;
     text-decoration: none;
 }
+
+body {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 10vh 70vh 20vh;
+    grid-template-areas: "h n" "m p" "f f";
+    position: relative;
+    background: url(img.png) no-repeat;
+}
+
+.logo {
+    grid-area: h;
+    background: red;
+}
+
+.menu {
+    grid-area: m;
+    background: pink;
+}
+
+.corpo {
+    grid-area: m p;
+    background: greenyellow;
+}
+
+.rodape {
+    grid-area: f f;
+    background: blueviolet;
+}
