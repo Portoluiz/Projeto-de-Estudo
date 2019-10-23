@@ -23,8 +23,8 @@
                 -- Marcar visita
                 -- Galeria de Imagens do local
             - Login
-                -- cadastro
-                -- redefinir senha
+                -- cadastro /// será uma pagina ///
+                -- redefinir senha /// será uma pagina ///
 
     --- Imagen animada
     --- Breve apresentação
